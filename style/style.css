@@ -1,0 +1,387 @@
+*{ 
+padding:0; margin:0;
+}
+body{
+	background: url(../images/bg.png);
+}
+.main{
+	width: 960px;
+	margin: auto;
+}
+.main li{
+list-style: none;
+}
+@font-face {
+    font-family: Mistral; 
+    src: url(../fonts/mistral.ttf); 
+    
+   }
+
+a{
+	color:#000;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#970909;
+    text-decoration: underline;
+}
+
+/* ------------------Top Menu-------------------------------------------------------------------------------------- */
+
+.left_menu{
+	float:left;
+	}
+.r_menu{
+	float:right;
+}
+.menu li{
+	list-style:none;
+	display:inline-block;
+	padding-top: 80px;
+	padding-right: 30px;
+	padding-left: 30px;
+		
+}
+.menu li a{
+    font: 25px Mistral;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu  li:hover a,
+.menu  li :active a {color:#b97866;}
+
+
+/* ------------------Header-------------------------------------------------------------------------------------- */
+
+.head{
+	background:url(../images/logo.png) center no-repeat;
+	height: 180px;
+}
+.head h2{
+	font: 30px hevletiaca, arial ;
+	color: #6793aa;
+	text-decoration: none;
+	padding-top:30px;
+	float: right; 
+   }
+  
+.head a   {
+	width: 250px;
+	font: 21px arial;
+	color: #566983;
+	text-decoration: none;
+	float: left;
+	margin-top: 120px;
+	margin-left: 680px;
+	}
+/* ------------------Content-------------------------------------------------------------------------------------- */	
+	
+.content{
+	background: url(../images/cont_bg.png);
+}
+	
+#sidebar { 
+    float: right; 
+    width: 268px;
+	margin-left: 20px;
+    font:Georgia Italic;
+}
+.right_title{
+	background-image:url(../images/right_title.png);
+	background-position:center;
+	text-align:center;
+	font-size:16px;
+	color: #908b88;
+	padding:5px;
+	height:20px;
+}
+.right_items div{
+	padding-left:5px;
+	padding-top:2px;
+}
+
+#login_form{
+    margin:10px 0px;
+}  
+#lk_actions{
+	    font-size:12px;
+    text-align: center;
+	margin-bottom:3px;
+}
+
+#lk_actions #a{
+	text-decoration: none;
+	color: red;
+  }
+
+
+
+			
+/* ------------------main content-------------------------------------------------------------------------------------- */
+			
+#blog { 
+background: white;
+width: 625px;
+padding-bottom: 10px;
+padding-left: 30px;
+padding-top: 50px;
+font:14px Tahoma;
+color: #6e797d;
+border-bottom: 10px solid black 80%;
+
+}
+#blog  #date{
+    display:block;
+	float: left;
+	width: 120px;
+	padding-top: 15px;
+	font:12px Georgia Italic;
+	}
+#blog  #article{
+	margin:0 0 10px 120px; 
+	font:14px Georgia Regular;
+}
+#blog  #menu_post{
+	margin:0 0 10px 0;
+	font:14px Georgia Regular;
+}
+#blog  #photo {
+padding: 0 10px 10px 0;
+float: left; 
+}
+
+#blog span {
+display:block;
+font:12px Tahoma;
+}
+
+#blog h2{
+font:25px Palatino Linotype;
+padding-top: 10px;
+padding-bottom:10px;
+}
+#blog a{
+text-decoration: none;
+color: #b97866;
+}
+
+#blog a:hover,#blog a:active{
+color: #55697e;
+} 
+
+
+#blog #table{
+background-color: #eaeaea;
+border-collapse: collapse;
+font: 10px arial;
+margin-bottom: 10px;
+}
+#blog #table td, th {
+text-align: center;
+padding: 5px 10px;
+border: 1px solid;
+border-color: #888888;
+}
+
+#blog #table th {
+font-weight: normal;
+color: #566a7e;
+}
+
+#blog hr{
+display:block;
+color: #ddddd7;
+clear: left; 
+}
+/*Ошибки*/
+.show_error{
+    color: red;
+    font-size:10px;
+}
+.show_rules{
+    color: green;
+    font-size:10px;
+}
+/*Комментарии*/
+.comment_table{
+    margin-top:10px;
+    margin-bottom:10px;
+    border: 1px solid #000;
+    background-color: #e9e7e7;
+}
+.comment_img{
+    padding-top:5px;
+    width:84px;
+    height:100px;
+    background-color: #cdcaca;
+}
+.comment_img img{
+    width:64px;
+    height:64px;
+}
+.comment_author{
+    padding: 4px;
+    padding-top:10px;
+}
+.comment_author div{
+    float:left;
+}
+.comment_text{
+    padding-left:5px;
+}
+/*Комментарии*/
+#pagination{
+    text-align:center;
+}
+/*Личный кабинет*/
+#personal{
+    width:100%;
+}
+.personal div{
+   text-align:center;
+   padding:1px;
+}
+.personal_img{
+    padding-top:3px;
+    width:80px;
+}
+.personal_hi{
+    color: red;
+    font-size:14px;
+    text-align:center;
+}
+
+/*Вид изменения пароля, личных данных, емаила, аватара*/
+.add_edit_view{
+    width:50%;
+    height:50px;
+    margin-top:20px;
+    margin-bottom:10px;
+    border:1px solid #000;
+}
+.add_edit_view .title{
+    background-color: #e9e7e7;
+    padding-left:20px;
+    font-family: Arial;
+    font-weight: bold;
+    height:20px;
+}
+.add_edit_view .field_input{
+    height:30px;
+    padding-left:20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    
+}
+.example{
+    font-size:11px;
+}
+.error{
+    font-size:11px;
+    color: red;
+}
+/*Регистрация*/
+#reg_table{
+    border:1px solid #000;
+}
+.reg_td1{
+    border-right:1px solid #000;
+    border-bottom:1px solid #000;
+    padding:20px;
+}
+.reg_td2{
+    border-bottom:1px solid #000;
+}
+
+#footmenu { 
+height: 40px;
+background: #9eaeb7; 
+margin: 0 auto;
+color: #fff; 
+clear: both; 
+position: relative;
+font: 12px arial; 
+}
+#footmenu h2 {
+display:none;
+}
+#footmenu ul{
+float: left;
+position: relative;
+left:50%;
+
+}
+
+
+#footmenu ul li{
+float: left; 
+position: relative; 
+left:-50%;
+margin-top: 12px;
+border-left:1px solid;
+}
+
+#footmenu ul li:first-child {
+    border-left:none; 
+   }
+
+
+#footmenu ul li a{
+
+color: #fff;
+text-decoration: none;
+vertical-align:center;
+
+}
+
+
+
+#footmenu ul li a{padding:0 15px 0;}
+#footmenu ul li a:hover{text-decoration:underline;}
+
+
+
+#footer{
+margin: 0 auto;
+text-align: center;
+padding: 20px 0;
+font: 14px Nirmala UI;
+color: #FFFFFF;
+}
+#footer	a{
+text-decoration: none;
+color: #FFFFFF;
+}	
+blockquote {
+	width:320px;
+	margin: 15px; 	padding: 0 0 0 40px;  	
+  	background: url(images/quote.jpg) no-repeat 2px 5px; 
+	font: 14px Tahoma; 
+	color: #566a7e;	
+}
+
+ul#comments-wrapper{
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+ul.comment-child{
+    border-left: 1px dotted #666;
+    padding-left: 25px;
+}
+.wrapper{
+    background-color: #f1f1f1;
+    border: 1px solid #dedede;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.info{
+    color: #878787;
+}

@@ -1,0 +1,231 @@
+/*CSS*/
+
+
+p{
+	padding:3px;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+/*Форма входа в админку*/
+#login_form{
+	margin-top:50px;
+    background-image: url(../img/admin/login_window.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    width:534px;
+    height:400px;
+}
+/*Поля формы входа*/
+#login_form .field{
+    margin-left:130px;
+    width:285px;
+    height:30px;
+    font-size:18px;
+    border:none;
+}
+/*Кнопка входа в админку*/
+.enter{
+    margin-right: 105px;
+    text-align:right;
+}
+/*Стиль кнопки входа в админку*/
+.enter input{
+    background-color: #177b0a;
+    border-radius: 10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    color:#fff;
+    border:none;
+    width:80px;
+    height:30px;
+    cursor: pointer;
+}
+/*Сообщение при не соответствии прав*/
+.no_status{
+    color: red;
+    text-align:center;
+}
+
+/*Основная таблица админки*/
+#main_table{
+
+    background-color: #fff;
+    padding-bottom:20px;
+}
+/*Стрелки сверху*/
+#arrows{
+	height: 45px;
+}
+#arrows div{
+    background-color: #8c2020;
+	width:500px;
+	height:45px;
+	float:left;
+}
+/*Меню*/
+#menu_td{
+	width:147px;
+	background-image:url(../img/admin/menu_bg.png);
+	background-repeat:repeat-y;
+}
+/*Заголовок страницы*/
+.page_title{
+    text-align:center;
+    font-size:18px;
+}
+/*Текст на стрелках*/
+.hello_admin{
+	margin-top:4px;
+	color:#fff;
+	text-align:right;
+	margin-right:3px;
+}
+.to_site{
+	text-align:left;	
+	font-size:16px;
+	margin-left:50px;
+	margin-top:10px;
+}
+.to_site a{
+	color:#fff;
+}
+/*Статистика*/
+#statistic{
+	width:300px;
+    margin-top:20px;
+    border: 1px solid #000;
+}
+#stat_title{
+    background-color: #e9e7e7;
+    text-align: center;
+    font-size: 18px;
+    padding:3px;
+}
+.stat_left{
+    border-right: 1px solid #000;
+    width:150px;
+}
+.stat_left div, .stat_right div{
+    padding:3px;
+}
+.stat_right{
+    color: #1d25bf;
+    font-weight: bold;
+    width:150px;
+}
+/*Зона редакции*/
+#edit_place{
+	width:839px;
+	padding: 0px 30px;
+}
+/*Вид добавления и редактирования*/
+/* .add_edit_view{
+    width:100%;
+    height:80px;
+    margin-top:20px;
+    margin-bottom:10px;
+    border:1px solid #000;
+} */
+.add_edit_view .title{
+    background-color: #e9e7e7;
+    padding-left:20px;
+    font-family: Arial;
+    font-weight: bold;
+    height:20px;
+}
+.add_edit_view .field_input{
+    height:60px;
+    padding-left:20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    
+}
+.example{
+    font-size:11px;
+}
+.error{
+    font-size:11px;
+    color: red;
+}
+/*Список пользователей*/
+#userlist td,th{
+    width:25%;
+    text-align:center;    
+}
+/*Список страниц и пользователей*/
+#pageslist td,th, #userlist td,th{
+    text-align:center;  
+    padding:5px;  
+}
+#pageslist, #userlist{
+    width:100%;
+    margin-top:20px;
+    margin-bottom:10px;
+    border:1px solid #000;
+}
+#pageslist .title, #userlist .title{
+    background-color: #e9e7e7;
+    padding-left:20px;
+    font-family: Arial;
+    font-weight: bold;
+    height:20px;
+}
+/*Футер*/
+#footer{
+	text-align:center;
+}
+/*Скрипт выподающего меню*/	
+ul#menu, ul#menu ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  width: 147px;
+}
+
+ul#menu a {
+  display: block;
+  text-decoration: none;	
+}
+
+ul#menu li {
+  margin-top: 1px;
+}
+
+ul#menu li a {
+  background: #333;
+  color: #fff;	
+  padding: 0.5em;
+}
+
+#menu div{
+   background: #430202;
+  color: #fff;	
+  padding: 0.5em; 
+}
+
+ul#menu li a:hover {
+  background: #000;
+}
+
+ul#menu li ul li a {
+  background: #ccc;
+  color: #000;
+  padding-left: 20px;
+}
+
+ul#menu li ul li a:hover {
+  background: #aaa;
+  border-left: 5px #000 solid;
+  padding-left: 15px;
+}
+
+.code { border: 1px solid #ccc; list-style-type: decimal-leading-zero; padding: 5px; margin: 0; }
+.code code { display: block; padding: 3px; margin-bottom: 0; }
+.code li { background: #ddd; border: 1px solid #ccc; margin: 0 0 2px 2.2em; }
+.indent1 { padding-left: 1em; }
+.indent2 { padding-left: 2em; }
